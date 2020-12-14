@@ -29,6 +29,13 @@ Find more information on our website: http://gobees.io.
 
 GoBees!
 
+**Incluid debajo el nombre de los miembros del grupo:**
+
+- [Enrique del Olmo Dominguez](https://github.com/eod1001)
+- [Juan Luis Garcia Gonzalez](https://github.com/jgg1009)
+- [Marcos Monge Belenguer](https://github.com/mmb1009)
+- [Alejandro Ortega MArtinez](https://github.com/aom1008)
+
 ## License
 
 Copyright (c) 2016 - 2017 David Miguel Lozano
