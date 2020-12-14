@@ -1,4 +1,8 @@
+<<<<<<< HEAD
   #enrique 
+=======
+//Marcos
+>>>>>>> main
 language: android
 sudo: required
 jdk: oraclejdk8
@@ -63,7 +67,11 @@ before_script:
 
 script:
     # Compile and run lint
+<<<<<<< HEAD
     - ./gradlew clean assembleProdRelease lint --stacktrace #enrique
+=======
+    - ./gradlew clean assembleProdRelease lint --stacktrace //Marcos
+>>>>>>> main
     # Run test coverage report
 #    - ./gradlew jacocoTestMockDebugUnitTestReport
     # Run SonarQube analysis
