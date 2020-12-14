@@ -1,4 +1,6 @@
+# Created by https://www.gitignore.io/api/android,intellij,opencv,gradle Comentario Conjunto
 # Created by https://www.gitignore.io/api/android,intellij,opencv,gradle feat Juan Luis
+# Created by https://www.gitignore.io/api/android,intellij,opencv,gradle Comentario de Alejandro
 
 ### Android ###
 # Built application files
@@ -30,6 +32,9 @@ gradle-app.setting
 *.jks
 secrets/keystore\.properties
 secrets/secrets\.tar
+# Sensitive files
+secrets/
+secrets\.tar
 
 # Local configuration file (sdk path, etc)
 local.properties
