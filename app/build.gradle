@@ -199,6 +199,9 @@ dependencies {
     testCompile 'junit:junit:4.12'
     // Mockito (mocking framework) : http://site.mockito.org/
     testCompile 'org.mockito:mockito-core:2.10.0'
+    compile('com.crashlytics.sdk.android:crashlytics:2.7.0@aar') {
+        transitive = true;
+    }
     // PowerMock (mocking framework) : https://github.com/powermock/powermock
     testCompile "org.powermock:powermock-module-junit4:1.7.1"
     testCompile "org.powermock:powermock-api-mockito2:1.7.1"
@@ -218,7 +221,7 @@ dependencies {
     androidTestCompile 'com.android.support.test.espresso:espresso-intents:2.2.2'
     // Resolve conflicts between main and test APK:
     androidTestCompile 'com.android.support:support-annotations:26.1.0'
-
+    
 }
 
 /*
